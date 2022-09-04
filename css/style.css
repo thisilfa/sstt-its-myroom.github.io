@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,800&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #302b2f;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+ul.social-network {
+	list-style:circle;
+    padding: 1rem;
+	margin:2rem;
+    text-align: center;
+    background-color: #302B2F;
+}
+
+ul.social-network li {
+	display:inline;
+	margin: 0 25px;
+    font-size: 30px;
+}
+
+ul.social-network li a i.fa-brands{
+    color : #5e5e5e;
+}
+
+.pertama{
+    background-color: #5A4839;
+    
+}
+
+.cekcek {
+    display: table;
+    width: 100%;
+    height: 200px;
+    color: #5e5e5e;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 100px 0;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3d2124;
+}
+
+.text-vertical-center h2{
+    padding : 22px o;
+    font-size: 3rem;
+    color: #777777;
+
+}
+.kedua{
+    background-color: #8B7F72;
+    
+}
+.callout {
+    display: table;
+    width: 100%;
+    height: 70px;
+    color: #35424D;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.callout .text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.callout .text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #302b2f;
+}
+
+.callout .text-vertical-center h2{
+    padding : 22px o;
+    font-size: 3rem;
+    color: #242424;
+}
+
+.backk{
+    background-image: url(../img/self/s2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 80%;
+    
+}
+.about{
+    align-items: center;
+    background-color: #6E6D6C;
+    padding-bottom: 4rem;
+}
+
+.about .row{
+    padding : 0 10px;
+    color:  #302b2f;
+    
+}
+
+.block-heading-two{
+    margin-bottom: 40px;
+}
+
+.container .row h5{
+    margin: 12px;
+}
+
+.container .row .col-md-2{
+    margin-top: 50px;
+}
+
+.container .row .col-md-2 img{
+    margin : 40px 0;
+}
+
+.container .pic{
+    margin: 2rem 12px;
+}
+
+.progress{
+    height: 30px;
+    margin : 20px;
+}
+.progress-bar.progress-bar-red{
+    background-color: #3d2124;
+}
+
+.progress-bar.progress-bar-green{
+    background-color: #A18F35;
+}
+
+.progress-bar.progress-bar-lblue{
+    background-color: #4C6C63;
+}
+
+.progress-bar.progress-bar-striped{
+    background-color: #645445;
+}
+
+.progress-bar.progress-bar-stripped{
+    background-color: #384D5F;
+}
+
+.breek{
+    padding: 4.5rem 2rem;
+    display: table;
+    width: 100%;
+    height: 200px;
+    color: #242424;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.breek iframe{
+    max-width: 50%;
+}
+
+.portofolio{
+    background-color: #8E857A;
+    padding: 4.5rem 2rem;
+    align-items: center;
+}
+
+
+
+.portofolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
